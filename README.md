@@ -1,28 +1,30 @@
-Инструкция по настройке и запуску
-Создайте файл config.json в той же директории, что и программа:
+Telegram Bot для общения с OpenRouter AI на чистом Go<br>
 
-json
-{
-  "telegram_token": "ВАШ_TELEGRAM_BOT_TOKEN",
-  "openrouter_key": "ВАШ_OPENROUTER_API_KEY",
-  "openrouter_model": "openai/gpt-3.5-turbo"
-}
+Инструкция по настройке и запуску<br>
+Создайте файл config.json в той же директории, что и программа:<br>
 
-Замените ВАШ_TELEGRAM_BOT_TOKEN на токен вашего бота, полученный от @BotFather в Telegram.
+json<br>
+{<br>
+  "telegram_token": "ВАШ_TELEGRAM_BOT_TOKEN",<br>
+  "openrouter_key": "ВАШ_OPENROUTER_API_KEY",<br>
+  "openrouter_model": "openai/gpt-3.5-turbo"<br>
+}<br>
 
-Замените ВАШ_OPENROUTER_API_KEY на ваш API-ключ от OpenRouter (можно получить на openrouter.ai).
+Замените ВАШ_TELEGRAM_BOT_TOKEN на токен вашего бота, полученный от @BotFather в Telegram.<br>
 
-Вы можете изменить модель по умолчанию в конфигурации (например, на "anthropic/claude-2" или другую поддерживаемую модель).
+Замените ВАШ_OPENROUTER_API_KEY на ваш API-ключ от OpenRouter (можно получить на openrouter.ai).<br>
 
-Как это работает
-    Бот получает обновления от Telegram через long polling.
-    Когда пользователь отправляет сообщение, бот формирует запрос к OpenRouter API.
-    OpenRouter обрабатывает запрос и возвращает ответ ИИ.
-    Бот отправляет ответ пользователю в Telegram.
+Вы можете изменить модель по умолчанию в конфигурации (например, на "anthropic/claude-2" или другую поддерживаемую модель).<br>
 
-Особенности реализации
-    Чистый Go без сторонних библиотек
-    Обработка ошибок API
-    Конфигурация через JSON-файл
-    Поддержка разных моделей ИИ через OpenRouter
+Как это работает<br>
+    Бот получает обновления от Telegram через long polling.<br>
+    Когда пользователь отправляет сообщение, бот формирует запрос к OpenRouter API.<br>
+    OpenRouter обрабатывает запрос и возвращает ответ ИИ.<br>
+    Бот отправляет ответ пользователю в Telegram.<br>
+
+Особенности реализации<br>
+    Чистый Go без сторонних библиотек<br>
+    Обработка ошибок API<br>
+    Конфигурация через JSON-файл<br>
+    Поддержка разных моделей ИИ через OpenRouter<br>
 
