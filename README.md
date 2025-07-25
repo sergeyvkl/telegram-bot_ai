@@ -1,3 +1,5 @@
+# Telegram Bot with AI
+
 Telegram Bot для общения с OpenRouter AI на чистом Go<br>
 Найди в Telegram [@KsvAIBot](https://t.me/KsvAIBot)<br>
 
