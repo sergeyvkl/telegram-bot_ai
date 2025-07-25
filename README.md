@@ -1,7 +1,11 @@
 Telegram Bot для общения с OpenRouter AI на чистом Go<br>
 Найди в Telegram [@KsvAIBot](https://t.me/KsvAIBot)<br>
 
-![Изображение](/images/bot_ai.png)
+![Изображение](/images/bot_ai.png)<br><br>
+![Изображение](/images/1.PNG)
+![Изображение](/images/2.PNG)<br>
+![Изображение](/images/3.PNG)
+![Изображение](/images/4.PNG)
 
 Инструкция по настройке и запуску<br>
 Создайте файл config.json в той же директории, что и программа:<br>
